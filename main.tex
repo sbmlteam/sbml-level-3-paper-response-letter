@@ -89,16 +89,24 @@ To help connect the sections better, we have expanded the final paragraph in the
 \textbf{\textit{1. When/why is standardization beneficial?}}
 
 
-\textbf{\textit{2. Costs/benefits of the standardization process.}}
+\textbf{\textit{2. Costs/benefits of the standardization process. Related to the above, it is important to note that the standards development process has both benefits and costs. The benefits are well-described in the paper. However, costs include that i) developing a standard requires time and resources that could be used for further advances to tools and methods; ii) standard formats inevitably lag behind the cutting edge; iii) standard formats generally have greater complexity than ad hoc or fit-to-purpose solutions because they represent the superset of features required to support multiple use cases, or iv) they may represent only the lowest-common denominator of functionality among multiple representations. The authors could likely identify several others.}}
+
+These are important issues indeed.  In the revised manuscript, we have added text in the section titled ``Forthcoming challenges'' to acknowledge and touch upon some of the costs and benefits.  We feel that a more extended discussion of these topics have to be considered beyond the scope of this paper; notwithstanding this, we hope the new changes are enough to address the point to a reasonable extent.
 
 
-\textbf{\textit{3. The value of SBML as a technical platform vs.\ as a governing body.}}
+\textbf{\textit{3. The value of SBML as a technical platform vs.\ as a governing body.  In the article the authors describe the value/impact of SBML both as a language and as a framework for community self-governance and standard setting. In the context of the Level 3 extensions it is difficult to disentangle the benefits of these two aspects. For example, the authors of CellNOpt and GINsim could have participated in the SBML governance structure and HARMONY/COMBINE events, but created a language independent of SBML itself. In what way is it an advantage to embed a qualitative modeling language within a format originally developed for reaction-based mathematical modeling? It is not made clear how the new packages connect with the core structure of SBML and thereby derive technical benefits, vs.\ simply representing nearly independent languages developed through the standard-setting process.}}
+
+Thank you for this question, which points out that this issue was not addressed sufficiently.  We have now expanded a paragraph in the section titled ``SBML Level 3's modularity and breadth'' to discuss how building on top of an existing format offers advantages over developing a separate format.
 
 
-\textbf{\textit{4. Human readability/usability of SBML.}}
+\textbf{\textit{4. Human readability/usability of SBML. Using languages such as XML and RDF to represent linked data allows maximal expressiveness but comes at the expense of human interpretability and usability. For a model of any reasonable complexity, both SBML (XML-based) and BioPax (RDF-based) are nearly unreadable, which inevitably introduces the requirement of additional tools/viewers/editors or custom code to use and process them. It is perhaps for this reason that a recent publication by Kirouac et al. on reproducibility in quantitative pharmacology modeling  called for an "open-source, standardized format" (which SBML most certainly is) but also noted that SBML requires "extra effort" and is in practice "rarely" used, suggesting instead Excel or text files. This view is of course heretical but reflects a real challenge for the SBML community. This problem should be noted and ideally the article should include some reflection on approaches to addressing it (greater outreach, investment in tool development, perhaps a simplified text-based SBML-compatible format covering 80\% of typical modeling use cases, etc.)}}
+
+This is a fair point.  We agree that XML- and RDF-based formats are not suitable for human use, and it is certainly true that spreadsheets are often tightly integrated in researchers' workflows.  We have added a new paragraph to the section on ``Forthcoming challenges'' that addresses this topic.
 
 
-\textbf{\textit{5. SBML as a knowledge representation vs. a model implementation.}}
+\textbf{\textit{5) SBML as a knowledge representation vs. a model implementation.  A final comment regards the notion of biological modeling languages as knowledge representations vs. model implementations. The SBML authors note rightly that the reaction-based format of SBML represents an abstraction of the underlying mathematical dynamical system and thus allows models with the same reaction structure to be simulated with different parameters, rate laws, etc.\ (which a model encoded as MATLAB equations would not easily allow). The authors might consider how this concept can be extended further up the abstraction hierarchy. For example, a signaling model could be encoded both as a qualitative model in sbml.qual or a classical reaction-based model in core SBML. These models are different from an implementation perspective but actually derive from the same knowledge. With this in mind, claims that SBML serves as a "knowledge integrator" (page 16, line 42) or a "knowledge base" (page 17, line 23) should not be offered with some caveats. From one point of view, an SBML model may represent a knowledge abstraction of a more detailed process; from another it may represent only one particular implementation of a yet more abstract knowledge representation.}}
+
+
 
 
 \textbf{\textit{Minor comments.}}
