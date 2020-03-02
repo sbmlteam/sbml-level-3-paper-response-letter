@@ -4,6 +4,14 @@ SBML Level 3 Paper response letter<img width="14%" align="right" src=".graphics/
 This repository contains source files for the response to reviewers of the SBML Level&nbsp;3 submitted to _Molecular Systems Biology_ in 2020.  The paper was developed by the authors on Overleaf, and once submitted, a copy of the git repository from Overleaf was put on GitHub in [sbml-level-3-paper-overleaf](https://github.com/sbmlteam/sbml-level-3-overleaf) and the response letter in the present repository.  Our response to reviewers included `latexdiff` output comparing the version that reviewers saw and the revised version, in [sbml-level-3-paper-diff](https://github.com/sbmlteam/sbml-level-3-paper-diff).  All 3 subrepositories are gathered together in [sbml-level-3-paper](https://github.com/sbmlteam/sbml-level-3-paper), a top-level umbrella repository.
 
 
+License
+-------
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img align="right" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
+The [LaTeX](https://www.latex-project.org) code and associated support files in this repository are freely available under the [Creative Commons Attribution License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), the same terms as for papers published in Molecular Systems Biology.  A copy of the license is available in the file named [LICENSE](LICENSE).
+
+
 Acknowledgments
 ---------------
 
